@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const crypto = require("crypto");
 
-const User = require("../models/user");
+const User = require("../models/User");
 
 // Helper: sign JWT
 function sign(user) {

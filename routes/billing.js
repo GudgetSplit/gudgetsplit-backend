@@ -3,7 +3,7 @@ const router = express.Router();
 const fetch = require("node-fetch"); // v2
 const crypto = require("crypto");
 const auth = require("../middleware/auth");
-const User = require("../models/user");
+const User = require("../models/User");
 
 const PAYSTACK_SECRET_KEY = process.env.PAYSTACK_SECRET_KEY;
 const APP_BASE_URL = process.env.APP_BASE_URL || "http://localhost:5173";
